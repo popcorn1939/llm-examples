@@ -4,7 +4,7 @@ import gpxpy.gpx
 import matplotlib.pyplot as plt
 import folium
 
-st.title("🦜🔗 Langchain Quickstart App")
+st.title("🦜🔗 Langchain Quickstart App 1234")
 
 # Load the GPX file
 gpx_file = open('datafiles/test.gpx', 'r')
@@ -23,8 +23,8 @@ plt.title('Route from GPX File')
 plt.grid()
 
 # Show the plot
-plt.show()
-#st.pyplot(plt)
+#plt.show()
+st.pyplot(plt)
 
 
 
@@ -38,4 +38,4 @@ plt.show()
 
 #st.pyplot(fig)
 
-st.title("🦜🔗 Langchain Quickstart App")
+#st.title("🦜🔗 Langchain Quickstart A123")
