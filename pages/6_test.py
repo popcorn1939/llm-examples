@@ -4,7 +4,7 @@ import gpxpy.gpx
 import matplotlib.pyplot as plt
 import folium
 
-st.title("🦜🔗 Langchain Quickstart App 1234")
+st.title("🦜🔗 Langchain Quickstart App 12345")
 
 # Load the GPX file
 gpx_file = open('datafiles/test.gpx', 'r')
@@ -25,17 +25,3 @@ plt.grid()
 # Show the plot
 #plt.show()
 st.pyplot(plt)
-
-
-
-#import streamlit as st
-#import matplotlib.pyplot as plt
-#import numpy as np
-
-#arr = np.random.normal(1, 1, size=100)
-#fig, ax = plt.subplots()
-#ax.hist(arr, bins=20)
-
-#st.pyplot(fig)
-
-#st.title("🦜🔗 Langchain Quickstart A123")
