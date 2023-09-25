@@ -6,6 +6,7 @@ import folium
 
 st.title("🦜🔗 Langchain Quickstart App 123456789")
 st.write("skrevet fra vsc september")
+st.write("skrevet fra vsc september 25 abcd")
 # Load the GPX file
 gpx_file = open('datafiles/test.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
