@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import folium
 
 st.title("🦜🔗 Langchain Quickstart App 123456789")
+st.write("skrevet fra vsc september")
 # Load the GPX file
 gpx_file = open('datafiles/test.gpx', 'r')
 gpx = gpxpy.parse(gpx_file)
