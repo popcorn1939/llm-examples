@@ -61,6 +61,13 @@ class GPXRoutePlotter:
     def save_route_image(self, file_path):
         route_map = self.plot_route()
         route_map.save(file_path)
+        route_map.save(oslo_map.jpg)
+
+        # Create a map centered around Oslo, Norway
+        #oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=13)
+
+        # Save the map as a JPG file
+        #oslo_map.save('oslo_map.jpg')
 
     def plot_elevation_profile(self):
         plt.figure(figsize=(8, 4))
