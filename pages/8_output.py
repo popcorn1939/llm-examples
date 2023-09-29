@@ -22,10 +22,12 @@ def capture_folium_map(map):
     # Take a screenshot of the Streamlit app using the browser's print screen
     #st.image("datafiles/screenshot.png")
     #st.write("done")
+
 # Create a map centered at Oslo, Norway
-oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=14)
+    st.write("123")
+#    oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=14)
 
 # You can add markers, circles, or any other elements to the map if needed
 
 # Capture the Folium map as an image
-capture_folium_map(oslo_map)
+#capture_folium_map(oslo_map)
