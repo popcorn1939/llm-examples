@@ -63,11 +63,25 @@ class GPXRoutePlotter:
         route_map.save(file_path)
         route_map.save('oslo_map.jpg')
 
-        # Create a map centered around Oslo, Norway
-        #oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=13)
 
-        # Save the map as a JPG file
-        #oslo_map.save('oslo_map.jpg')
+        # Save the map as an image
+        img_stream = BytesIO()
+        route_map.save(img_stream, format='png')
+        img_stream.seek(0)
+
+        # Display the elevation plot as an image in Streamlit
+        st.image(img_stream, caption='Routemap Profile', use_column_width=True)
+
+        with open("datafiles/routemap.png", "wb") as f:
+            f.write(img_stream.read())
+
+
+
+
+
+
+
+
 
     def plot_elevation_profile(self):
         plt.figure(figsize=(8, 4))
@@ -85,6 +99,8 @@ class GPXRoutePlotter:
         # Display the elevation plot as an image in Streamlit
         st.image(img_stream, caption='Elevation Profile', use_column_width=True)
 
+        with open("datafiles/image.png", "wb") as f:
+            f.write(img_stream.read())
 
 # Streamlit app
 st.title('GPX Route Plotter with Elevation Profile')
