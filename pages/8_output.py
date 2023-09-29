@@ -23,9 +23,11 @@ def capture_folium_map(map):
     #st.image("datafiles/screenshot.png")
     #st.write("done")
 
+
+st.write("hej 4er")
 # Create a map centered at Oslo, Norway
-    st.write("123")
-#    oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=14)
+
+#oslo_map = folium.Map(location=[59.9139, 10.7522], zoom_start=14)
 
 # You can add markers, circles, or any other elements to the map if needed
 
