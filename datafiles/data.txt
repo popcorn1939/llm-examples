@@ -1,1 +1,2 @@
 https://towardsdatascience.com/create-tailor-made-tourist-maps-with-folium-954706cc04e8
+https://bikeshbade.com.np/tutorials/Detail/?title=Beginner%20guide%20to%20python%20Folium%20module%20to%20integrate%20google%20earth%20engine&code=8
